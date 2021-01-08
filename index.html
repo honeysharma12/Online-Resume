@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honey's Personal Website</title>
+    <style>
+      .internships,
+      .internships tr,
+      .internships th,
+      .internships td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      .skills ,
+      .skills tr,
+      .skills td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td >
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C5603AQEfdDUocHWivA/profile-displayphoto-shrink_400_400/0/1591373479010?e=1615420800&v=beta&t=BnJkyGHCeKkYJVOap5DwOOXWH_PBU_MOjvjjI5zu8RI"
+            alt="Honey Sharma Profile Picture" width="160" 
+          />
+        </td>
+        <td style="padding-left: 2%;">
+          <h1>Honey Sharma</h1>
+          <p>I am final year <em> engineering student.</em></p>
+          <p>
+            I am doing B.Tech specialized in
+            <strong> Computer Science and Engineering </strong>from
+            <a href="http://bbsbec.edu.in/" target="_blank"
+              >Baba banda Singh Bahadur Engineering College</a
+            >, Fatehgarh Sahib. This is my Personal Website.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <h3>Education</h3>
+    <ul class="Education" style="line-height: 0.3cm">
+      <li>B.Tech - Computer Science and Engineering (2017-2021)</li>
+      <p>Baba Banda Singh Bahadur Engineering College, Fatehgarh Sahib</p>
+      <p>8.0 CGPA</p>
+      <li>12th - Non Medical (2015-2017)</li>
+      <p>GMT Public School , Ludhiana</p>
+      <p>9.1 CGPA</p>
+      <li>10th (2015)</li>
+      <p>GMT Public School , Ludhiana</p>
+      <p>9.0 CGPA</p>
+    </ul>
+    <hr />
+    <h3>Internships</h3>
+    <table class="internships">
+      <thead>
+        <tr>
+          <th>Time Period</th>
+          <th>Position</th>
+          <th>Company Name</th>
+          <th>Certificate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>June 2020- July 2020</td>
+          <td>Android Developer Intern</td>
+          <td>Capaz Infosystems Pvt. Ltd.</td>
+          <td>
+            <a
+              href="https://drive.google.com/file/d/11kKzMvF3KihX_-a0gzxLn5ptqs8hUvDq/view?usp=sharing"
+              target="_blank"
+              >Certificate</a
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>May 2020- June 2020</td>
+          <td>Data Analyst Intern</td>
+          <td>KPMG</td>
+          <td>
+            <a
+              href="https://drive.google.com/file/d/1KJyyftpjkvq1UiFpr8kzCqJwyrg0MWXe/view?usp=sharing"
+              target="_blank"
+              >Certificate</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>Skills</h3>
+    <table class="skills">
+        <tr>
+            <td>Html</td>
+            <td>★★★★★</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>★★★★</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>★★★★</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>★★★</td>
+        </tr>
+        <tr>
+            <td>MySql</td>
+            <td>★★★</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Contact Information</h3>
+    <p>Email : honeysharma1789@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/honeysharma12/" target="_blank"
+        >Linkedin Profile</a
+      >
+    </p>
+    <p>
+      <a href="https://github.com/honeysharma12" target="_blank"
+        >Github Profile</a
+      >
+    </p>
+
+    <form action="mailto:honeysharma1789@gmail.com" method="POST" enctype="text/plain">
+        <label>Name : </label>
+        <input type="text" name="Name" id="name" required><br>
+        <label for="">Email :</label>
+        <input type="email" name="Email" id="email" required><br>
+        <label for="">Your Message :</label><br>
+        <textarea name="Message" id="message" cols="30" rows="8" required></textarea><br>
+        <input type="submit">
+    </form>
+
+  </body>
+</html>
